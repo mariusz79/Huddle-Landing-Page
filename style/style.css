@@ -27,15 +27,18 @@ h6 {
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: auto;
 }
+
+
 /*navigation*/
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px 20px;
 }
 
@@ -48,9 +51,9 @@ button {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.right-link>button {
+nav>button {
     font-weight: 400;
-    padding: .375rem .75rem;
+    padding: 3px 14px;
     font-size: 1rem;
     line-height: 1.5;
     background-color: white;
@@ -58,12 +61,46 @@ button {
     border: 1px solid var(--primary-color);
 }
 
-.right-link>button:hover {
+nav>button:hover {
     color: #fff;
     background-color: var(--primary-color);
 }
 
-.right-link>button:active {
+nav>button:active {
+    -webkit-box-shadow: 2px 1px 22px -2px var(--primary-color);
+    -moz-box-shadow: 2px 1px 22px -2px var(--primary-color);
+    box-shadow: 2px 1px 22px -2px var(--primary-color);
+}
+
+.hero {
+    margin-top: 3rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero p {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.hero>button {
+    margin-top: 1.8rem;
+    font-weight: 400;
+    padding: 8px 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+}
+
+.hero>button:hover {
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.hero>button:active {
     -webkit-box-shadow: 2px 1px 22px -2px var(--primary-color);
     -moz-box-shadow: 2px 1px 22px -2px var(--primary-color);
     box-shadow: 2px 1px 22px -2px var(--primary-color);
