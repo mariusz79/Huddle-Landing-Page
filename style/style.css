@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+html,
 body {
     margin: 0;
     padding: 0;
@@ -37,7 +38,7 @@ h6 {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 15px 20px;
 }
@@ -70,6 +71,13 @@ nav>button:active {
     -webkit-box-shadow: 2px 1px 22px -2px var(--primary-color);
     -moz-box-shadow: 2px 1px 22px -2px var(--primary-color);
     box-shadow: 2px 1px 22px -2px var(--primary-color);
+    outline: 0;
+}
+
+.main {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
 }
 
 .hero {
@@ -86,6 +94,7 @@ nav>button:active {
 
 .hero>button {
     margin-top: 1.8rem;
+    margin-bottom: 4rem;
     font-weight: 400;
     padding: 8px 30px;
     font-size: 1rem;
@@ -104,4 +113,33 @@ nav>button:active {
     -webkit-box-shadow: 2px 1px 22px -2px var(--primary-color);
     -moz-box-shadow: 2px 1px 22px -2px var(--primary-color);
     box-shadow: 2px 1px 22px -2px var(--primary-color);
+    outline: 0;
+}
+
+.mockup-image>img {
+    max-width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.icons h1 {
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+.icons p{
+    color: grey;
+    text-align: center;
+}
+
+.left-icon {
+    padding-left: 5rem;
+}
+
+.right-icon {
+    padding-right: 5rem;
 }
