@@ -179,25 +179,25 @@ span>button:active {
 }
 
 .before-grow-section {
-    background: url("/assets/images/bg-section-top-desktop-1.svg") no-repeat;
+    background: url("assets/images/bg-section-top-desktop-1.svg") no-repeat;
     height: 70px;
     background-size: 100% 100%;
 }
 
 .after-grow-section {
-    background: url("/assets/images/bg-section-bottom-desktop-1.svg") no-repeat;
+    background: url("assets/images/bg-section-bottom-desktop-1.svg") no-repeat;
     height: 70px;
     background-size: 100% 100%;
 }
 
 .before-users-section {
-    background: url("/assets/images/bg-section-top-desktop-2.svg") no-repeat;
+    background: url("assets/images/bg-section-top-desktop-2.svg") no-repeat;
     height: 70px;
     background-size: 100% 100%;
 }
 
 .after-users-section {
-    background: url("/assets/images/bg-section-bottom-desktop-2.svg") no-repeat;
+    background: url("assets/images/bg-section-bottom-desktop-2.svg") no-repeat;
     height: 70px;
     background-size: 100% 100%;
 }
@@ -227,7 +227,7 @@ span>button:active {
 }
 
 .wave-before-footer {
-    background: url("/assets/images/bg-footer-top-desktop.svg") no-repeat;
+    background: url("assets/images/bg-footer-top-desktop.svg") no-repeat;
     height: 70px;
     background-size: 100% 100%;
 }
@@ -354,27 +354,27 @@ span>button {
         margin-top: 1rem;
     }
     .wave-before-footer {
-        background: url("/assets/images/bg-footer-top-mobile.svg") no-repeat;
+        background: url("assets/images/bg-footer-top-mobile.svg") no-repeat;
         height: 70px;
         background-size: 100% 100%;
     }
     .before-grow-section {
-        background: url("/assets/images/bg-section-top-mobile-1.svg") no-repeat;
+        background: url("assets/images/bg-section-top-mobile-1.svg") no-repeat;
         height: 70px;
         background-size: 100% 100%;
     }
     .after-grow-section {
-        background: url("/assets/images/bg-section-bottom-mobile-1.svg") no-repeat;
+        background: url("assets/images/bg-section-bottom-mobile-1.svg") no-repeat;
         height: 70px;
         background-size: 100% 100%;
     }
     .before-users-section {
-        background: url("/assets/images/bg-section-top-mobile-2.svg") no-repeat;
+        background: url("assets/images/bg-section-top-mobile-2.svg") no-repeat;
         height: 70px;
         background-size: 100% 100%;
     }
     .after-users-section {
-        background: url("/assets/images/bg-section-bottom-mobile-2.svg") no-repeat;
+        background: url("assets/images/bg-section-bottom-mobile-2.svg") no-repeat;
         height: 70px;
         background-size: 100% 100%;
     }
