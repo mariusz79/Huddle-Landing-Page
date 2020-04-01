@@ -306,6 +306,10 @@ span>button {
     border-radius: 3px;
 }
 
+.ready {
+    margin-top: 5rem;
+}
+
 @media only screen and (max-width: 909px) {
     span>button {
         margin-top: 1rem;
@@ -336,9 +340,6 @@ span>button {
     }
     .flow-section .container1 {
         flex-direction: column;
-    }
-    .ready {
-        margin-top: 3rem;
     }
     nav>button {
         padding: 4px 8px;
