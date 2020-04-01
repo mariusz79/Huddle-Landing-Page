@@ -114,16 +114,16 @@ span>button {
 .hero>button:hover,
 .ready>button:hover,
 span>button:hover {
-    color: var(--primary-color);
-    background-color: white;
+    -webkit-box-shadow: 2px 1px 22px -2px var(--primary-color);
+    -moz-box-shadow: 2px 1px 22px -2px var(--primary-color);
+    box-shadow: 2px 1px 22px -2px var(--primary-color);
 }
 
 .hero>button:active,
 .ready>button:active,
 span>button:active {
-    -webkit-box-shadow: 2px 1px 22px -2px var(--primary-color);
-    -moz-box-shadow: 2px 1px 22px -2px var(--primary-color);
-    box-shadow: 2px 1px 22px -2px var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
 }
 
 .mockup-image>img {
@@ -180,25 +180,25 @@ span>button:active {
 
 .before-grow-section {
     background: url("/assets/images/bg-section-top-desktop-1.svg") no-repeat;
-    height: 133px;
+    height: 70px;
     background-size: 100% 100%;
 }
 
 .after-grow-section {
     background: url("/assets/images/bg-section-bottom-desktop-1.svg") no-repeat;
-    height: 133px;
+    height: 70px;
     background-size: 100% 100%;
 }
 
 .before-users-section {
     background: url("/assets/images/bg-section-top-desktop-2.svg") no-repeat;
-    height: 133px;
+    height: 70px;
     background-size: 100% 100%;
 }
 
 .after-users-section {
     background: url("/assets/images/bg-section-bottom-desktop-2.svg") no-repeat;
-    height: 133px;
+    height: 70px;
     background-size: 100% 100%;
 }
 
@@ -228,7 +228,7 @@ span>button:active {
 
 .wave-before-footer {
     background: url("/assets/images/bg-footer-top-desktop.svg") no-repeat;
-    height: 133px;
+    height: 70px;
     background-size: 100% 100%;
 }
 
@@ -276,6 +276,7 @@ footer h3 {
 
 .social-icons {
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .social-icons img {
@@ -321,10 +322,60 @@ span>button {
     .left-footer {
         margin-top: 6rem;
     }
+    .icons {
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-icon,
+    .right-icon {
+        padding: 1rem 0;
+    }
+    .container1 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .flow-section .container1 {
+        flex-direction: column;
+    }
+    .ready {
+        margin-top: 3rem;
+    }
+    nav>button {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+    nav img {
+        max-width: 75%;
+    }
 }
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 401px) {
     span>button {
         margin-top: 1rem;
+    }
+    .wave-before-footer {
+        background: url("/assets/images/bg-footer-top-mobile.svg") no-repeat;
+        height: 70px;
+        background-size: 100% 100%;
+    }
+    .before-grow-section {
+        background: url("/assets/images/bg-section-top-mobile-1.svg") no-repeat;
+        height: 70px;
+        background-size: 100% 100%;
+    }
+    .after-grow-section {
+        background: url("/assets/images/bg-section-bottom-mobile-1.svg") no-repeat;
+        height: 70px;
+        background-size: 100% 100%;
+    }
+    .before-users-section {
+        background: url("/assets/images/bg-section-top-mobile-2.svg") no-repeat;
+        height: 70px;
+        background-size: 100% 100%;
+    }
+    .after-users-section {
+        background: url("/assets/images/bg-section-bottom-mobile-2.svg") no-repeat;
+        height: 70px;
+        background-size: 100% 100%;
     }
 }
