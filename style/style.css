@@ -29,7 +29,7 @@ h6 {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -38,7 +38,7 @@ h6 {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
 }
@@ -123,7 +123,7 @@ nav>button:active {
 .icons {
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+    margin: 4rem 0 2rem 0;
 }
 
 .icons h1 {
@@ -131,7 +131,7 @@ nav>button:active {
     margin: 10px 0;
 }
 
-.icons p{
+.icons p {
     color: grey;
     text-align: center;
 }
@@ -142,4 +142,67 @@ nav>button:active {
 
 .right-icon {
     padding-right: 5rem;
+}
+
+.section {
+    width: 100%;
+}
+
+.section img {
+    max-width: 100%;
+}
+
+.grow-section,
+.users-section {
+    background-color: var(--very-pale-blue);
+}
+
+.grow-section,
+.flow-section,
+.users-section {
+    display: flex;
+    justify-content: center;
+}
+
+.flow-section {
+    margin: 3rem 0 4rem 0;
+}
+
+.before-grow-section {
+    background: url("/assets/images/bg-section-top-desktop-1.svg") no-repeat;
+    height: 133px;
+    background-size: 100% 100%;
+}
+
+.after-grow-section {
+    background: url("/assets/images/bg-section-bottom-desktop-1.svg") no-repeat;
+    height: 133px;
+    background-size: 100% 100%;
+}
+
+.before-users-section {
+    background: url("/assets/images/bg-section-top-desktop-2.svg") no-repeat;
+    height: 133px;
+    background-size: 100% 100%;
+}
+
+.after-users-section {
+    background: url("/assets/images/bg-section-bottom-desktop-2.svg") no-repeat;
+    height: 133px;
+    background-size: 100% 100%;
+}
+
+.container1 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info p{
+    font-size: 16px;
+}
+
+.info, .container1 span{
+    padding: 0 20px;
 }
