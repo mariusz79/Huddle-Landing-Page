@@ -229,7 +229,7 @@ span>button:active {
 .wave-before-footer {
     background: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/img/bg-footer-top-desktop.svg") no-repeat;
     height: 70px;
-    background-size: 100% 100%;
+    background-size: 100% 102%;
 }
 
 footer {
@@ -357,7 +357,7 @@ span>button {
     .wave-before-footer {
         background: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/img/bg-footer-top-mobile.svg") no-repeat;
         height: 70px;
-        background-size: 100% 100%;
+        background-size: 100% 102%;
     }
     .before-grow-section {
         background: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/img/bg-section-top-mobile-1.svg") no-repeat;
