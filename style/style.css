@@ -370,12 +370,12 @@ span>button {
         background-size: 100% 100%;
     }
     .before-users-section {
-        background: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/img//bg-section-top-mobile-2.svg") no-repeat;
+        background: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/img/bg-section-top-mobile-2.svg") no-repeat;
         height: 70px;
         background-size: 100% 100%;
     }
     .after-users-section {
-        background: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/img//bg-section-bottom-mobile-2.svg") no-repeat;
+        background: url("https://mariusz-ecommerce.s3-eu-west-1.amazonaws.com/static/img/bg-section-bottom-mobile-2.svg") no-repeat;
         height: 70px;
         background-size: 100% 100%;
     }
